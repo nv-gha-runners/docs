@@ -1,0 +1,65 @@
+site_name: NVIDIA GitHub Action Runners
+site_url: https://docs.gha-runners.nvidia.com/
+site_description: >-
+  Documentation about using and setting up NVIDIA's self-hosted runners
+  for GitHub Actions.
+repo_name: nv-gha-runners/docs
+repo_url: https://github.com/nv-gha-runners/docs
+copyright: Copyright &copy; 2023 NVIDIA Corporation
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - mdx_truly_sane_lists
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+
+nav:
+  - Home:
+      - index.md
+      - Onboarding:
+          - onboarding/index.md
+          - NVIDIA Orgs: onboarding/nvidia.md
+          - Non-NVIDIA Orgs: onboarding/non-nvidia.md
+  - GitHub Applications:
+      - applications/index.md
+      - Copy PR Bot:
+          - applications/copy-pr-bot/index.md
+          - FAQs: applications/copy-pr-bot/faqs.md
+      - NVIDIA Runners:
+          - applications/nvidia-runners/index.md
+  - Runners:
+      - runners/index.md
