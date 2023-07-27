@@ -8,13 +8,15 @@ Running workflows on pull requests from public forks without vetting them first 
 
 ## What are my responsibilities as a vetter?
 
-Vetters are responsible for ensuring that the changes introduced by a pull request are both legitimate and benign.
+[Vetters](./index.md#glossary) are responsible for ensuring that the changes introduced by a pull request are both legitimate and benign.
 
 If this criteria is met, an `/ok to test` comment can be left on the pull request to copy its code to a branch in the source repository.
 
-If a pull request introduces changes that seem suspicious (running network scans, uploading/downloading suspicious files, etc.), do not comment `/ok to test`. Instead, reach out to an organization or repository administrator for additional guidance.
+Every subsequent commit on an untrusted pull request will be need to vetted and will also require an `/ok to test` comment.
 
-## Why did I receive a comment that my pull request is untrusted?
+If a commit introduces changes that seem suspicious (running network scans, uploading/downloading suspicious files, etc.), do not comment `/ok to test`. Instead, reach out to an organization or repository administrator for additional guidance.
+
+## Why did I receive a comment that my pull request requires additional validation?
 
 !!! note
 
