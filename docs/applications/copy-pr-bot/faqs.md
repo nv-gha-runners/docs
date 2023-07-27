@@ -6,6 +6,8 @@ This application is necessary to ensure that pull requests from public repositor
 
 Running workflows on pull requests from public forks without vetting them first is a security risk. This becomes especially important for CI machines that are self-hosted.
 
+For additional details about the motivation behind this application, view the onboarding page [here](../../onboarding/index.md).
+
 ## What are my responsibilities as a vetter?
 
 [Vetters](./index.md#glossary) are responsible for ensuring that the changes introduced by a pull request are both legitimate and benign.
