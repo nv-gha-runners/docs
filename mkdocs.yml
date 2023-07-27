@@ -55,11 +55,11 @@ nav:
           - NVIDIA Orgs: onboarding/nvidia.md
           - Non-NVIDIA Orgs: onboarding/non-nvidia.md
   - GitHub Applications:
-      - applications/index.md
+      - apps/index.md
       - Copy PR Bot:
-          - applications/copy-pr-bot/index.md
-          - FAQs: applications/copy-pr-bot/faqs.md
+          - apps/copy-pr-bot/index.md
+          - FAQs: apps/copy-pr-bot/faqs.md
       - NVIDIA Runners:
-          - applications/nvidia-runners/index.md
+          - apps/nvidia-runners/index.md
   - Runners:
       - runners/index.md

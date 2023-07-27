@@ -28,13 +28,13 @@ Complete details about this strategy can be found in the CircleCI blog post enti
 
 ### Automating this Process
 
-Since it's not practical to expect repository members to manually copy the source code for every pull request into the source repository, we've created a GitHub application, called [`copy-pr-bot`](../applications/copy-pr-bot/index.md), to help automate this process.
+Since it's not practical to expect repository members to manually copy the source code for every pull request into the source repository, we've created a GitHub application, called [`copy-pr-bot`](../apps/copy-pr-bot/index.md), to help automate this process.
 
 The application will automatically copy pull request code from trusted pull requests into the source repository so that GitHub Action workflows can begin without any intervention.
 
 Any untrusted pull requests will need to be vetted and receive an `/ok to test` comment by a trusted user before the application will copy its code to the source repository for a workflow to begin.
 
-You can view the `copy-pr-bot` application page [here](../applications/copy-pr-bot/index.md) for more details on how the application works and for the definitions of trusted and untrusted pull requests.
+You can view the `copy-pr-bot` application page [here](../apps/copy-pr-bot/index.md) for more details on how the application works and for the definitions of trusted and untrusted pull requests.
 
 ### Example
 
