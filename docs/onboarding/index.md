@@ -14,7 +14,7 @@ Therefore, these event types have been disabled entirely on NVIDIA's self-hosted
 
 If a self-hosted runner determines that the job it's about to run has been triggered by one of these disabled events, it will exit immediately before the job can run.
 
-To safely test pull requests despite this limitation, we've adopted a process known as _marking code as trusted by pushing upstream_.
+To safely test pull requests despite this limitation, NVIDIA has adopted a process known as _marking code as trusted by pushing upstream_.
 
 The gist of this process is that users can configure GitHub Actions to trigger on pushes to certain prefixed branches (e.g. `pull-request/`) of a source repository instead of triggering on pull request events.
 
@@ -28,7 +28,7 @@ Complete details about this strategy can be found in the CircleCI blog post enti
 
 ### Automating this Process
 
-Since it's not practical to expect repository members to manually copy the source code for every pull request into the source repository, we've created a GitHub application, called [`copy-pr-bot`](../apps/copy-pr-bot/index.md), to help automate this process.
+Since it's not practical to expect repository members to manually copy the source code for every pull request into the source repository, NVIDIA has created a GitHub application, called [`copy-pr-bot`](../apps/copy-pr-bot/index.md), to help automate this process.
 
 The application will automatically copy pull request code from trusted pull requests into the source repository so that GitHub Action workflows can begin without any intervention.
 

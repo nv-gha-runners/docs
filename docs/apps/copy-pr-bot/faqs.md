@@ -12,11 +12,11 @@ For additional details about the motivation behind this application, view the on
 
 [Vetters](./index.md#glossary) are responsible for ensuring that the changes introduced by a pull request are both legitimate and benign.
 
-If this criteria is met, an `/ok to test` comment can be left on the pull request to copy its code to a branch in the source repository.
+If a commit introduces changes that seem suspicious (running network scans, uploading/downloading/executing suspicious files, trying to access secrets, etc.), reach out to an organization or repository administrator for additional guidance.
 
-Every subsequent commit on an untrusted pull request will be need to vetted and will also require an `/ok to test` comment.
+If the changes are legitimate and benign, an `/ok to test` comment can be left on the pull request to copy its code to a branch in the source repository so that a CI workflow can begin.
 
-If a commit introduces changes that seem suspicious (running network scans, uploading/downloading suspicious files, etc.), do not comment `/ok to test`. Instead, reach out to an organization or repository administrator for additional guidance.
+Every subsequent commit on an untrusted pull request will also need to be vetted and will require an additional `/ok to test` comment.
 
 ## Why did I receive a comment that my pull request requires additional validation?
 
