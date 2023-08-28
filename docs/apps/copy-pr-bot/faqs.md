@@ -38,7 +38,9 @@ In the event that a **trusted user** accidentally pushes an unsigned commit, the
 If an `/ok to test` comment didn't work as expected, check the following items:
 
 - Ensure that the author of the `/ok to test` comment is a **vetter** as defined in the [glossary](./index.md#glossary)
-- Ensure that the `/ok to test` comment matches this regular expression `^/ok(ay)? to test$`. Whitespace is trimmed.
+- Ensure that the `/ok to test` comment matches this regular expression: `^/ok(ay)? to test$`. Whitespace is trimmed.
+
+A successful `/ok to test` comment will receive a 👍 reaction from `copy-pr-bot`.
 
 ## The application isn't working correctly. How can I troubleshoot?
 
