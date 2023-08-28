@@ -29,7 +29,7 @@ If any of the criteria below are true, a pull request is deemed untrusted and wi
 - The pull request was opened by an **untrusted user**
 - The pull request contains commits from an unknown or **untrusted user**
 - The pull request contains 250 commits or greater
-- The pull request contains commits unsigned commits (see [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) GitHub documentation about signing commits)
+- The pull request contains unsigned commits (see [this](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) GitHub documentation about signing commits)
 
 In the event that a **trusted user** accidentally pushes an unsigned commit, they may rebase their changes locally to sign the commit(s) in question and force push an update to their pull request. Assuming all of the rebased changes are **trusted changes**, the pull request will no longer require an `/ok to test` comment.
 
