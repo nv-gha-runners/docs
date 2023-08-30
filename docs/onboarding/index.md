@@ -8,7 +8,9 @@ Once this information has been reviewed, follow the links at the bottom of this 
 
 ## Pull Request Testing
 
-For security reasons, GitHub does not currently recommend using self-hosted runners with the `pull_request` or `pull_request_target` events on public repositories.
+NVIDIA's self-hosted runners may be used on private or public repositories.
+
+However, for security reasons, GitHub does not currently recommend using self-hosted runners with the `pull_request` or `pull_request_target` events on public repositories.
 
 Therefore, these event types have been disabled entirely on NVIDIA's self-hosted runners.
 
