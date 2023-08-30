@@ -16,6 +16,8 @@ Since the commit SHA of the branch within the source repository matches the comm
 
 The `copy-pr-bot` GitHub application provides some automation to simplify this process.
 
+## Automation
+
 The automation works like this:
 
 !!! note
