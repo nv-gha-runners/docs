@@ -6,7 +6,7 @@ The `nvidia-runners` GitHub application provides NVIDIA with the necessary permi
 
 ## Installation
 
-Before installing the GitHub application, open a pull request to add your organization to the allow list in [src/orgs.ts](https://github.com/nv-gha-runners/rapids-runners/blob/main/src/orgs.ts).
+Before installing the GitHub application, open a pull request to add your organization to the allow list in [src/orgs.ts](https://github.com/nv-gha-runners/nvidia-runners/blob/main/src/orgs.ts).
 
 The application will immediately uninstall itself from any organizations that are not on this list.
 
@@ -16,13 +16,7 @@ Once the pull request has been merged, install the `nvidia-runners` application 
 
 ## Configuration
 
-Upon installation, the application will create the `rapids-runners` runner group in the installed organization.
-
-!!! note
-
-    The `rapids-runners` group will eventually be renamed to `nvidia-runners`.
-
-    All existing organizations will be updated automatically when this change occurs.
+Upon installation, the application will create the `nvidia-runners` runner group in the installed organization.
 
 By default, the runner group will be:
 
