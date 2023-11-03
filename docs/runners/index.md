@@ -6,19 +6,17 @@ This page includes information about the self-hosted runners that are available 
 
 The CPU labeled runners are backed by various EC2 instances and do not have any GPUs installed.
 
-| Label               | EC2 Machine Type              |
-| ------------------- | ----------------------------- |
-| `linux-amd64-cpu4`  | `m6id.xlarge` ([specs][m6i])  |
-| `linux-amd64-cpu8`  | `m6id.2xlarge` ([specs][m6i]) |
-| `linux-amd64-cpu16` | `m6id.4xlarge` ([specs][m6i]) |
-| `linux-amd64-cpu32` | `m6id.8xlarge` ([specs][m6i]) |
-| `linux-arm64-cpu4`  | `m7gd.xlarge` ([specs][m7g])  |
-| `linux-arm64-cpu8`  | `m7gd.2xlarge` ([specs][m7g]) |
-| `linux-arm64-cpu16` | `m7gd.4xlarge` ([specs][m7g]) |
-| `linux-arm64-cpu32` | `m7gd.8xlarge` ([specs][m7g]) |
+| Label               | EC2 Machine Type             |
+| ------------------- | ---------------------------- |
+| `linux-amd64-cpu4`  | `m5d.xlarge` ([specs][m5])   |
+| `linux-amd64-cpu8`  | `m5d.2xlarge` ([specs][m5])  |
+| `linux-amd64-cpu16` | `m5d.4xlarge` ([specs][m5])  |
+| `linux-arm64-cpu4`  | `m6gd.xlarge` ([specs][m6])  |
+| `linux-arm64-cpu8`  | `m6gd.2xlarge` ([specs][m6]) |
+| `linux-arm64-cpu16` | `m6gd.4xlarge` ([specs][m6]) |
 
-[m6i]: https://aws.amazon.com/ec2/instance-types/m6i/#Product_details
-[m7g]: https://aws.amazon.com/ec2/instance-types/m7g/#Product_Details
+[m5]: https://aws.amazon.com/ec2/instance-types/m5/#Product_details
+[m6]: https://aws.amazon.com/ec2/instance-types/m6g/#Product_Details
 
 <!-- prettier-ignore-start -->
 !!! info
