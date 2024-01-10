@@ -21,7 +21,7 @@ The documentation on this site will help teams get started with using the self-h
 
 This site assumes that readers have a basic understanding of GitHub Actions. Check out the official GitHub documentation [here](https://docs.github.com/en/actions) if you're not already familiar with GitHub Actions.
 
-If your organization would like to use the runners, check out the [onboarding](./onboarding/) page for instructions on how to get started.
+If your organization would like to use the runners, check out the [onboarding](./onboarding/index.md) page for instructions on how to get started.
 
 If your organization is already onboarded, check out the [runners](./runners/index.md) page for more information about the available self-hosted runners.
 
