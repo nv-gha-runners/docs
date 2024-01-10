@@ -42,8 +42,6 @@ Before installing the GitHub application, open a pull request to add your organi
 
 The application will immediately uninstall itself from any organizations that are not on this list.
 
-This ensures that organizations who aren't intended to use this application will not send it additional webhook requests and therefore increase our compute load.
-
 Once the pull request has been merged, install the `copy-pr-bot` application to your GitHub organization with this link: <https://github.com/apps/copy-pr-bot>.
 
 Upon installation, `copy-pr-bot` won't do anything unless the [configuration file described below](#configuration) is committed and has `enabled: true` set. Therefore, it is okay to install the `copy-pr-bot` GitHub application on _all_ repositories in an organization by default if desired.

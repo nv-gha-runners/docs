@@ -10,8 +10,6 @@ Before installing the GitHub application, open a pull request to add your organi
 
 The application will immediately uninstall itself from any organizations that are not on this list.
 
-This ensures that organizations who aren't intended to use this application will not send it additional webhook requests and therefore increase our compute load.
-
 Once the pull request has been merged, install the `nvidia-runners` application to your GitHub organization with this link: <https://github.com/apps/nvidia-runners>.
 
 ## Configuration
