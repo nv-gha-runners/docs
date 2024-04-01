@@ -68,7 +68,15 @@ additional_vetters:
 
 The values for the `additional_trustees` and `additional_vetters` keys are a list of GitHub usernames for NVIDIA employees. Any non-NVIDIA employee usernames from this list are ignored. To determine whether a username belongs to an NVIDIA employee, the usernames are compared against the NVIDIA Enterprise Member List (see the [glossary](#glossary) for information about this list).
 
-See [src/config.ts](https://github.com/nv-gha-runners/copy-pr-bot/blob/main/src/config.ts) to see the source code for the configuration file, including the official schema and default values.
+Once the application is configured, you can begin creating workflows using `on: push` events:
+
+```yaml
+name: pull request workflow
+on:
+  push:
+    branches:
+      - "pull-request/[0-9]+"
+```
 
 ## Glossary
 

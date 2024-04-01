@@ -42,6 +42,10 @@ If an `/ok to test` comment didn't work as expected, check the following items:
 
 A successful `/ok to test` comment will receive a 👍 reaction from `copy-pr-bot`.
 
+## How can I obtain pull request information from the `on: push` workflow?
+
+The [nv-gha-runners/get-pr-info](https://github.com/nv-gha-runners/get-pr-info) shared action can be used to obtain additional pull request information (e.g. the base branch) from an `on: push` triggered workflow.
+
 ## The application isn't working correctly. How can I troubleshoot?
 
 Here are a few things to check if the application isn't working as expected:
