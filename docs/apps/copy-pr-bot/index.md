@@ -12,7 +12,7 @@ Then, when a pull-request is opened, a repository member with `write` permission
 
 Assuming the changes meet that criteria, the repository member can then push the changes to the source repository on a prefixed branch, like `pull-request/123`, to trigger a CI workflow.
 
-Since the commit SHA of the branch within the source repository matches the commit SHA on the pull request, any workflows statuses reported as a result of the branch workflow will also be reported back to the pull request.
+Since the commit SHA of the branch within the source repository matches the commit SHA on the pull request, any workflow statuses reported as a result of the branch workflow will also be reported back to the pull request.
 
 The `copy-pr-bot` GitHub application provides some automation to simplify this process.
 
