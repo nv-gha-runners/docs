@@ -52,9 +52,9 @@ The GPU labeled runners have the GPUs specified in the table below installed.
 | Label                             | GPU    | Driver Version | # of GPUs |
 | --------------------------------- | ------ | -------------- | --------- |
 | `linux-amd64-gpu-v100-earliest-1` | `V100` | `470`          | `1`       |
-| `linux-amd64-gpu-v100-latest-1`   | `V100` | `535`          | `1`       |
-| `linux-arm64-gpu-a100-latest-1`   | `A100` | `535`          | `1`       |
-| `linux-amd64-gpu-t4-latest-1`     | `T4`   | `535`          | `1`       |
+| `linux-amd64-gpu-v100-latest-1`   | `V100` | `550`          | `1`       |
+| `linux-arm64-gpu-a100-latest-1`   | `A100` | `550`          | `1`       |
+| `linux-amd64-gpu-t4-latest-1`     | `T4`   | `550`          | `1`       |
 
 <!-- prettier-ignore-start -->
 !!! info
@@ -73,7 +73,7 @@ The GPU labeled runners have the GPUs specified in the table below installed.
     ```
 <!-- prettier-ignore-end -->
 
-Due to limited GPU capacity and the overhead associated with manually rotating self-hosted runner labels when GPU drivers are updated, there are no driver-specific self-hosted runner labels (e.g. `linux-amd64-gpu-t4-535-1`).
+Due to limited GPU capacity and the overhead associated with manually rotating self-hosted runner labels when GPU drivers are updated, there are no driver-specific self-hosted runner labels (e.g. `linux-amd64-gpu-t4-550-1`).
 
 Instead, the driver-version designators `earliest` and `latest` are used. The values of these designators represent the oldest and newest NVIDIA supported drivers at any given time.
 
