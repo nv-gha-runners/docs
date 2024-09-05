@@ -56,7 +56,7 @@ _Runner labels have been moved to [nv-gha-runners/enterprise-runner-configuratio
     ```
 <!-- prettier-ignore-end -->
 
-Due to limited GPU capacity and the overhead associated with manually rotating self-hosted runner labels when GPU drivers are updated, there are no driver-specific self-hosted runner labels (e.g. `linux-amd64-gpu-t4-535-1`).
+Due to limited GPU capacity and the overhead associated with manually rotating self-hosted runner labels when GPU drivers are updated, there are no driver-specific self-hosted runner labels (e.g. `linux-amd64-gpu-t4-550-1`).
 
 Instead, the driver-version designators `earliest` and `latest` are used. The values of these designators represent the oldest and newest NVIDIA supported drivers at any given time.
 
