@@ -2,10 +2,6 @@
 
 ## Introduction
 
-!!! note
-
-    This page does not apply to non-NVIDIA GitHub organizations. Non-NVIDIA GitHub organizations can can go [here](./non-nvidia.md) to proceed with onboarding instructions.
-
 This page outlines some important preliminary information that users will need to know about testing pull requests with NVIDIA's self-hosted runners.
 
 Once this information has been reviewed, follow the links at the bottom of this page to find out more about the onboarding process.
@@ -75,5 +71,3 @@ Once GitHub addresses the security concerns associated with using self-hosted ru
 ## Next Steps
 
 GitHub organizations that are a member of the NVIDIA GitHub Enterprise account can go [here](./nvidia.md) to proceed with onboarding instructions.
-
-GitHub Organizations that are not part of the NVIDIA GitHub Enterprise account can go [here](./non-nvidia.md).

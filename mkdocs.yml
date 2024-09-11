@@ -56,7 +56,6 @@ nav:
       - Onboarding:
           - onboarding/index.md
           - NVIDIA Orgs: onboarding/nvidia.md
-          - Non-NVIDIA Orgs: onboarding/non-nvidia.md
   - GitHub Applications:
       - apps/index.md
       - Copy PR Bot:
@@ -64,5 +63,7 @@ nav:
           - FAQs: apps/copy-pr-bot/faqs.md
       - NVIDIA Runners:
           - apps/nvidia-runners/index.md
+      - NVIDIA Runner Mgmt:
+          - apps/nvidia-runner-mgmt/index.md
   - Runners:
       - runners/index.md

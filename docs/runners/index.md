@@ -6,17 +6,7 @@ This page includes information about the self-hosted runners that are available 
 
 The CPU labeled runners are backed by various EC2 instances and do not have any GPUs installed.
 
-| Label               | EC2 Machine Type             |
-| ------------------- | ---------------------------- |
-| `linux-amd64-cpu4`  | `m7i.xlarge` ([specs][m7i])  |
-| `linux-amd64-cpu8`  | `m7i.2xlarge` ([specs][m7i]) |
-| `linux-amd64-cpu16` | `m7i.4xlarge` ([specs][m7i]) |
-| `linux-arm64-cpu4`  | `m7g.xlarge` ([specs][m7g])  |
-| `linux-arm64-cpu8`  | `m7g.2xlarge` ([specs][m7g]) |
-| `linux-arm64-cpu16` | `m7g.4xlarge` ([specs][m7g]) |
-
-[m7i]: https://aws.amazon.com/ec2/instance-types/m7i/#Product_details
-[m7g]: https://aws.amazon.com/ec2/instance-types/m7g/#Product_Details
+_Runner labels have been moved to [nv-gha-runners/enterprise-runner-configuration](https://github.com/nv-gha-runners/enterprise-runner-configuration). These resources will be consolidated in the future._
 
 <!-- prettier-ignore-start -->
 !!! info
@@ -45,16 +35,9 @@ The GPU labeled runners have the GPUs specified in the table below installed.
     2. They must set the `NVIDIA_VISIBLE_DEVICES: ${{ env.NVIDIA_VISIBLE_DEVICES }}` container environment variable
 
      If these requirements aren't met, the GitHub Actions job will fail. See the [_Example_](#example) section below for an example.
-
-     **These requirements do not apply to non-NVIDIA GitHub organizations.**
 <!-- prettier-ignore-end -->
 
-| Label                             | GPU    | Driver Version | # of GPUs |
-| --------------------------------- | ------ | -------------- | --------- |
-| `linux-amd64-gpu-v100-earliest-1` | `V100` | `470`          | `1`       |
-| `linux-amd64-gpu-v100-latest-1`   | `V100` | `550`          | `1`       |
-| `linux-arm64-gpu-a100-latest-1`   | `A100` | `550`          | `1`       |
-| `linux-amd64-gpu-t4-latest-1`     | `T4`   | `550`          | `1`       |
+_Runner labels have been moved to [nv-gha-runners/enterprise-runner-configuration](https://github.com/nv-gha-runners/enterprise-runner-configuration). These resources will be consolidated in the future._
 
 <!-- prettier-ignore-start -->
 !!! info
