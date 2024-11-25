@@ -37,8 +37,8 @@ In the event that a **trusted user** accidentally pushes an unsigned commit, the
 
 Some projects disable auto-sync for draft pull requests, ready for review pull requests, or both, to avoid using excessive amounts of CI resources on frequent pushes.
 
-- If the pull request is a draft and `.github/copy-pr-bot.yaml`'s `auto_sync_draft` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request requires an `/ok to test` command.
-- If the pull request is ready for review and `.github/copy-pr-bot.yaml`'s `auto_sync_ready` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request requires an `/ok to test` command.
+- If the pull request is a draft and `.github/copy-pr-bot.yaml`'s `auto_sync_draft` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request will require an `/ok to test` command.
+- If the pull request is ready for review and `.github/copy-pr-bot.yaml`'s `auto_sync_ready` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request will require an `/ok to test` command.
 
 The `/ok to test` comment must be from a **vetter** as defined in the [glossary](./index.md#glossary).
 
