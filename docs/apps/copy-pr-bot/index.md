@@ -64,9 +64,13 @@ additional_vetters:
   - nvidia_employee_gh_username_3
   - nvidia_employee_gh_username_4
   - non_nvidia_employee_gh_username_2 # non NVIDIA employees on this list are ignored
+auto_sync_draft: false
+auto_sync_ready: true
 ```
 
 The values for the `additional_trustees` and `additional_vetters` keys are a list of GitHub usernames for NVIDIA employees. Any non-NVIDIA employee usernames from this list are ignored. To determine whether a username belongs to an NVIDIA employee, the usernames are compared against the NVIDIA Enterprise Member List (see the [glossary](#glossary) for information about this list).
+
+The `auto_sync_draft` and `auto_sync_ready` keys control whether or not the bot automaticallly pushes the branch for a PR that is in the draft state or ready for review state, respectively.
 
 Once the application is configured, you can begin creating workflows using `on: push` events:
 
