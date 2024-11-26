@@ -33,6 +33,15 @@ If any of the criteria below are true, a pull request is deemed untrusted and wi
 
 In the event that a **trusted user** accidentally pushes an unsigned commit, they may rebase their changes locally to sign the commit(s) in question and force push an update to their pull request. Assuming all of the rebased changes are **trusted changes**, the pull request will no longer require an `/ok to test` comment.
 
+## Why did I receive a comment that auto-sync is disabled?
+
+Some projects disable auto-sync for draft pull requests, ready for review pull requests, or both, to avoid using excessive amounts of CI resources on frequent pushes.
+
+- If the pull request is a draft and `.github/copy-pr-bot.yaml`'s `auto_sync_draft` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request will require an `/ok to test` command.
+- If the pull request is ready for review and `.github/copy-pr-bot.yaml`'s `auto_sync_ready` setting is set to `false`, the pull request's associated branch will not be automatically synced and the pull request will require an `/ok to test` command.
+
+The `/ok to test` comment must be from a **vetter** as defined in the [glossary](./index.md#glossary).
+
 ## Why didn't my `/ok to test` comment work?
 
 If an `/ok to test` comment didn't work as expected, check the following items:
