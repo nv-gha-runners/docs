@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `nvidia-runner-mgmt` GitHub application provides NVIDIA with the necessary permissions to manage self-hosted runners in a particular GitHub organization. It is only intended to be installed by NVIDIA GitHub organizations. It supersedes the [`nvidia-runners`](../nvidia-runners/index.md) GitHub application.
+The `nvidia-runner-mgmt` GitHub application provides NVIDIA with the necessary permissions to manage self-hosted runners in a particular GitHub organization. It is only intended to be installed by NVIDIA GitHub organizations.
 
 ## Installation
 
