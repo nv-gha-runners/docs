@@ -61,8 +61,6 @@ nav:
       - Copy PR Bot:
           - apps/copy-pr-bot/index.md
           - FAQs: apps/copy-pr-bot/faqs.md
-      - NVIDIA Runners:
-          - apps/nvidia-runners/index.md
       - NVIDIA Runner Mgmt:
           - apps/nvidia-runner-mgmt/index.md
   - Runners:
